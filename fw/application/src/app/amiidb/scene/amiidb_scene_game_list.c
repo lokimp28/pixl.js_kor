@@ -63,13 +63,16 @@ static int amiidb_scene_game_list_list_view_sort_cb(const mui_list_item_t *p_ite
         } else {
             return p_game_b->order - p_game_a->order;
         }
-    } else if (p_item_a->icon == ICON_FOLDER && p_item_b->icon == ICON_FILE) {
+    } else if (p_item_a->icon == ICON_FOLDER) {
         return -1;
-    } else {
+    } else if (p_item_b->icon == ICON_FOLDER) {
+        return 1;
+    } else if (p_item_a->icon == ICON_FILE && p_item_b->icon == ICON_FILE) {
         db_amiibo_t *p_amiibo_a = (db_amiibo_t *)p_item_a->user_data;
         db_amiibo_t *p_amiibo_b = (db_amiibo_t *)p_item_b->user_data;
         return strcmp(get_amiibo_display_name(p_amiibo_a), get_amiibo_display_name(p_amiibo_b));
     }
+    return 0;
 }
 
 static void amiidb_scene_game_list_reload(app_amiidb_t *app) {
@@ -90,9 +93,6 @@ static void amiidb_scene_game_list_reload(app_amiidb_t *app) {
         }
         p_game++;
     }
-    // game sort by order
-    mui_list_view_sort(app->p_list_view, amiidb_scene_game_list_list_view_sort_cb);
-
     // add link list by page
     const db_link_t *p_link = link_list;
     uint16_t link_cnt = 0;
@@ -114,6 +114,10 @@ static void amiidb_scene_game_list_reload(app_amiidb_t *app) {
         }
         p_link++;
     }
+
+    // Sort folders first, then amiibo by the current display name.
+    // Number-prefixed card names (001, W01, etc.) naturally keep card-number order.
+    mui_list_view_sort(app->p_list_view, amiidb_scene_game_list_list_view_sort_cb);
 
     if (link_cnt > LIST_VIEW_ITEM_MAX_COUNT) {
         mui_list_view_add_item(app->p_list_view, ICON_ERROR, getLangString(_L_APP_AMIIDB_MORE), (void *)0);
