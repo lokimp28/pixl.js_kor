@@ -13,8 +13,8 @@ static void amiidb_scene_game_list_reload(app_amiidb_t *app);
 
 static const char *amiidb_game_display_name(const db_game_t *p_game) {
     settings_data_t *p_settings_data = settings_get_data();
-    return (p_settings_data->language == LANGUAGE_KO_KR && p_game->name_ko[0] != '\0')
-               ? p_game->name_ko
+    return (p_settings_data->language == LANGUAGE_KO_KR && p_game->name_cn[0] != '\0')
+               ? p_game->name_cn
                : p_game->name_en;
 }
 
