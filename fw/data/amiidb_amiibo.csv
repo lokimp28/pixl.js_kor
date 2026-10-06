@@ -61,23 +61,23 @@
 21030000002a0002,Robin,러플레
 2104000002520002,Roy,로이
 21050000025a0002,Corrin,카무이
-2105010003630002,Corrin - Player 2,카무이 [2P 파이터]
+2105010003630002,Corrin - Player 2,카무이 [2P]
 2106000003601202,Alm,아름
 2107000003611202,Celica,세리카
 21080000036f1202,Chrom,크롬
 2108000003880002,Chrom,크롬
 2109000003701202,Tiki,치키
 210b000003a50002,Byleth,벨레트
-0005000003730102,Bowser - Wedding,쿠파 [웨딩 스타일]
+0005000003730102,Bowser - Wedding,쿠파 [웨딩]
 0000010000190002,Dr. Mario,닥터마리오
 0000000000000002,Mario,마리오
 00070000001a0002,Wario,와리오
 0009000002650102,Diddy Kong,디디콩
 0001000000350102,Luigi,루이지
-00000000003c0102,Mario - Gold Edition,마리오 - 골드 에디션
-0000000003710102,Mario - Wedding,마리오 [웨딩 스타일]
-00000000003d0102,Mario - Silver Edition,마리오 - 실버 에디션
-0002000003720102,Peach - Wedding,피치공주 [웨딩 스타일]
+00000000003c0102,Mario - Gold Edition,마리오 [골드]
+0000000003710102,Mario - Wedding,마리오 [웨딩]
+00000000003d0102,Mario - Silver Edition,마리오 [실버]
+0002000003720102,Peach - Wedding,피치공주 [웨딩]
 0005000000390102,Bowser,쿠파
 3740000103741402,Super Mario Cereal,슈퍼 마리오 시리얼
 0005ff00023a0702,Hammer Slam Bowser,해머 슬램 쿠파
@@ -173,13 +173,13 @@
 22800000002c0002,Ness,네스
 2281000002510002,Lucas,류카
 32400000025b0002,Bayonetta,베요네타
-3240010003640002,Bayonetta - Player 2,베요네타 [2P 파이터]
+3240010003640002,Bayonetta - Player 2,베요네타 [2P]
 33c0000004200002,Kazuya,카즈야
-3480000002580002,Mega Man - Gold Edition,록맨 - 골드 에디션
+3480000002580002,Mega Man - Gold Edition,록맨 [골드]
 34c0000002530002,Ryu,류
 34c1000003890002,Ken,켄
 3600000002590002,Cloud,클라우드
-3600010003620002,Cloud - Player 2,클라우드 [2P 파이터]
+3600010003620002,Cloud - Player 2,클라우드 [2P]
 3601000004210002,Sephiroth,세피로스
 3640000003a20002,Hero,용사
 37800000038a0002,Snake,스네이크
@@ -207,7 +207,7 @@
 1f00000002540c02,Kirby,커비
 1f400000035e1002,Qbby,큐비
 35c0000002500a02,Shovel Knight,셔블 나이트
-35c0000003920a02,Shovel Knight - Gold Edition,셔블 나이트 - 골드 에디션
+35c0000003920a02,Shovel Knight - Gold Edition,셔블 나이트 [골드]
 35c10000036c0a02,Plague Knight,플레이그 나이트
 35c20000036d0a02,Specter Knight,스펙터 나이트
 35c30000036e0a02,King Knight,킹 나이트
@@ -228,9 +228,9 @@
 0182010100460502,[AC] 003 - DJ KK,003 - DJ K.K.
 0193000101740502,[AC] 305 - Celeste,305 - 부옥
 019f000101110502,[AC] 206 - Pete,206 - 펠리오
-05c0000004121302,Samus - Metroid Dread,사무스 [메트로이드 드레드]
+05c0000004121302,Samus - Metroid Dread,사무스 [드레드]
 028f0101031a0502,[AC] XS2 - Marty,XS2 - 마티
-0000000002380602,8-Bit Mario Classic Color,8비트 마리오 [클래식 컬러]
+0000000002380602,8-Bit Mario Classic Color,8비트 마리오 [클래식]
 01810100023f0502,Isabelle,여울
 00020003039dff02,Peach - Power Up Band,피치공주 [파워 업 밴드]
 0183000002420502,Tom Nook,너굴
@@ -741,7 +741,7 @@
 01810000024b0502,Summertime Isabelle,여울(하복)
 01020100041a0902,Ganondorf - Tears of the Kingdom,가논돌프 [티어스 오브 더 킹덤]
 0101000004190902,Zelda - Tears of the Kingdom,젤다 [티어스 오브 더 킹덤]
-0000000002390602,8-Bit Mario Modern Color,8비트 마리오 [모던 컬러]
+0000000002390602,8-Bit Mario Modern Color,8비트 마리오 [모던]
 00000003039bff02,Mario - Power Up Band,마리오 [파워 업 밴드]
 000000030430ff02,Golden - Power Up Band,골든 [파워 업 밴드]
 00010003039cff02,Luigi - Power Up Band,루이지 [파워 업 밴드]
@@ -933,15 +933,15 @@
 0000040004c10102,Elephant Mario,코끼리 마리오
 0000050004e90102,Mario and Luma,마리오와 치코
 0004010004ea0102,Rosalina and Lumas,로젤리나와 치코
-000a010004c20102,Captain Toad & Talking Flower,키노피오대장 & 수다쟁이 꽃
-0025010004c30102,Poplin & Prince Florian,포플린 & 플로리안 왕자
+000a010004c20102,Captain Toad & Talking Flower,키노피오대장&수다쟁이 꽃
+0025010004c30102,Poplin & Prince Florian,포플린&플로리안 왕자
 010d000004a70902,Mineru's Construct,미넬의 골렘
-0807000004f70402,Shiver - Splatoon Raiders,후우카 - 스플래툰 레이더스
-0808000004f80402,Frye - Splatoon Raiders,우츠호 - 스플래툰 레이더스
-0809000004f90402,Big Man - Splatoon Raiders,만타로 - 스플래툰 레이더스
-1f01000004c61e03,Meta Knight (& Shadow Star),메타 나이트 (& 섀도 스타)
-1f02000004c71e03,King Dedede (& Tank Star),디디디 대왕 (& 탱크 스타)
-1f04000004ca1e03,Chef Kawasaki (& Hop Star),요리사 카와사키 (& 홉 스타)
+0807000004f70402,Shiver - Splatoon Raiders,후우카
+0808000004f80402,Frye - Splatoon Raiders,우츠호
+0809000004f90402,Big Man - Splatoon Raiders,만타로
+1f01000004c61e03,Meta Knight (& Shadow Star),메타 나이트&섀도 스타
+1f02000004c71e03,King Dedede (& Tank Star),디디디 대왕&탱크 스타
+1f04000004ca1e03,Chef Kawasaki (& Hop Star),카와사키&홉 스타
 350c000004fa0f02,Ratha,레우스
 350d000004fb0f02,Ratha V,레우스V
 350e000004fc0f02,Rudy,루디
