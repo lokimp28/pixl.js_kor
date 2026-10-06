@@ -31,6 +31,8 @@ def extract_non_printable_chars():
     for source_dir in source_dirs:
         for root, _, files in os.walk(source_dir):
             for file in files:
+                if file in {"zh_Hans.c", "zh_TW.c"}:
+                    continue
                 if file.endswith(".c"):
                     with open(os.path.join(root, file), "r", encoding="utf-8") as f:
                         content = f.read()
@@ -85,7 +87,7 @@ def main():
     extract_non_printable_chars()
 
     combined_content = ""
-    for file_name in ["chinese3.txt", "pixjs.txt"]:
+    for file_name in ["pixjs.txt"]:
         with open(os.path.join(data_dir, file_name), "r", encoding="utf-8") as file:
             combined_content += file.read()
 
