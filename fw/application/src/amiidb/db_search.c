@@ -38,5 +38,5 @@ bool is_valid_amiibo_v3(uint32_t head, uint32_t tail){
 
 const char* get_amiibo_display_name(db_amiibo_t *amiibo){
      uint8_t language = settings_get_data()->language;
-    return language == LANGUAGE_KO_KR && amiibo->name_ko[0] != '\0' ? amiibo->name_ko : amiibo->name_en;
+    return language == LANGUAGE_KO_KR && amiibo->name_cn[0] != '\0' ? amiibo->name_cn : amiibo->name_en;
 }
