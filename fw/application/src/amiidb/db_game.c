@@ -91,5 +91,6 @@ const db_game_t game_list[] = {
 {87, 78, "Splatoon Raiders", "스플래툰 레이더스", 250, 3}, 
 {88, 85, "Resident Evil Requiem", "바이오하자드 레퀴엠", 250, 2}, 
 {89, 0, "PRAGMATA", "프라그마타", 190, 1}, 
+{90, 82, "Monster Hunter Stories 3", "몬스터헌터 스토리즈 3", 250, 3}, 
 {0, 0, 0, 0, 0}
 };

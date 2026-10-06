@@ -58,7 +58,8 @@ static int amiidb_scene_game_list_list_view_sort_cb(const mui_list_item_t *p_ite
         db_game_t *p_game_a = (db_game_t *)p_item_a->user_data;
         db_game_t *p_game_b = (db_game_t *)p_item_b->user_data;
         settings_data_t *p_settings_data = settings_get_data();
-        if (p_settings_data->amiidb_sort_column == AMIIDB_SORT_COLUMN_NAME) {
+        if (p_settings_data->language == LANGUAGE_KO_KR ||
+            p_settings_data->amiidb_sort_column == AMIIDB_SORT_COLUMN_NAME) {
             return strcmp(amiidb_game_display_name(p_game_a), amiidb_game_display_name(p_game_b));
         } else {
             return p_game_b->order - p_game_a->order;
@@ -93,6 +94,9 @@ static void amiidb_scene_game_list_reload(app_amiidb_t *app) {
         }
         p_game++;
     }
+    // Sort only the small folder list at runtime. Amiibo rows are pre-sorted in db_link.
+    mui_list_view_sort(app->p_list_view, amiidb_scene_game_list_list_view_sort_cb);
+
     // add link list by page
     const db_link_t *p_link = link_list;
     uint16_t link_cnt = 0;
@@ -115,9 +119,6 @@ static void amiidb_scene_game_list_reload(app_amiidb_t *app) {
         p_link++;
     }
 
-    // Sort folders first, then amiibo by the current display name.
-    // Number-prefixed card names (001, W01, etc.) naturally keep card-number order.
-    mui_list_view_sort(app->p_list_view, amiidb_scene_game_list_list_view_sort_cb);
 
     if (link_cnt > LIST_VIEW_ITEM_MAX_COUNT) {
         mui_list_view_add_item(app->p_list_view, ICON_ERROR, getLangString(_L_APP_AMIIDB_MORE), (void *)0);
