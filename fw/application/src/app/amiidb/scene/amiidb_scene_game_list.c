@@ -18,6 +18,16 @@ static const char *amiidb_game_display_name(const db_game_t *p_game) {
                : p_game->name_en;
 }
 
+static uint8_t amiidb_game_korean_priority(const db_game_t *p_game) {
+    switch (p_game->game_id) {
+    case 11: return 0;  // 동물의 숲
+    case 76: return 1;  // 슈퍼 마리오
+    case 77: return 2;  // 젤다의 전설
+    case 47: return 3;  // 스매시브라더스
+    default: return 0xff;
+    }
+}
+
 static void amiidb_scene_game_list_list_view_on_selected(mui_list_view_event_t event, mui_list_view_t *p_list_view,
                                                          mui_list_item_t *p_item) {
     uint16_t icon = p_item->icon;
@@ -58,8 +68,14 @@ static int amiidb_scene_game_list_list_view_sort_cb(const mui_list_item_t *p_ite
         db_game_t *p_game_a = (db_game_t *)p_item_a->user_data;
         db_game_t *p_game_b = (db_game_t *)p_item_b->user_data;
         settings_data_t *p_settings_data = settings_get_data();
-        if (p_settings_data->language == LANGUAGE_KO_KR ||
-            p_settings_data->amiidb_sort_column == AMIIDB_SORT_COLUMN_NAME) {
+        if (p_settings_data->language == LANGUAGE_KO_KR) {
+            uint8_t priority_a = amiidb_game_korean_priority(p_game_a);
+            uint8_t priority_b = amiidb_game_korean_priority(p_game_b);
+            if (priority_a != priority_b) {
+                return (int)priority_a - (int)priority_b;
+            }
+            return strcmp(amiidb_game_display_name(p_game_a), amiidb_game_display_name(p_game_b));
+        } else if (p_settings_data->amiidb_sort_column == AMIIDB_SORT_COLUMN_NAME) {
             return strcmp(amiidb_game_display_name(p_game_a), amiidb_game_display_name(p_game_b));
         } else {
             return p_game_b->order - p_game_a->order;
