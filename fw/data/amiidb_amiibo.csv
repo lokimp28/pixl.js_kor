@@ -40,21 +40,21 @@
 35060000040d0f02,Ena,
 35070000040e0f02,Tsukino,
 38c0000003911602,Loot Goblin,
-0017000002680102,Boo,
-0006000000150002,Bowser Jr.,
-00130000037a0002,Daisy,
-0008000002640102,Donkey Kong,
-00010000000c0002,Luigi,
-0002000000010002,Peach,
-0004010000130002,Rosalina & Luma,
-0014000002670102,Waluigi,
-0003010200420302,Pink Yarn Yoshi,
-0005000000140002,Bowser,
-00090000000d0002,Diddy Kong,
-0015000003670102,Goomba,
-0023000003680102,Koopa Troopa,
-0000000000340102,Mario,
-0007000002630102,Wario,
+0017000002680102,Boo,부끄부끄
+0006000000150002,Bowser Jr.,쿠파주니어
+00130000037a0002,Daisy,데이지
+0008000002640102,Donkey Kong,동키콩
+00010000000c0002,Luigi,루이지
+0002000000010002,Peach,피치공주
+0004010000130002,Rosalina & Luma,로젤리나&치코
+0014000002670102,Waluigi,와루이지
+0003010200420302,Pink Yarn Yoshi,털실 요시 핑크
+0005000000140002,Bowser,쿠파
+00090000000d0002,Diddy Kong,디디콩
+0015000003670102,Goomba,굼바
+0023000003680102,Koopa Troopa,엉금엉금
+0000000000340102,Mario,마리오
+0007000002630102,Wario,와리오
 21000000000b0002,Marth,마르스
 2101000000180002,Ike,아이크
 2102000000290002,Lucina,루키나
@@ -68,17 +68,17 @@
 2108000003880002,Chrom,크롬
 2109000003701202,Tiki,치키
 210b000003a50002,Byleth,벨레트
-0005000003730102,Bowser - Wedding,
-0000010000190002,Dr. Mario,
-0000000000000002,Mario,
-00070000001a0002,Wario,
-0009000002650102,Diddy Kong,
-0001000000350102,Luigi,
-00000000003c0102,Mario - Gold Edition,
-0000000003710102,Mario - Wedding,
-00000000003d0102,Mario - Silver Edition,
-0002000003720102,Peach - Wedding,
-0005000000390102,Bowser,
+0005000003730102,Bowser - Wedding,쿠파 [웨딩 스타일]
+0000010000190002,Dr. Mario,닥터마리오
+0000000000000002,Mario,마리오
+00070000001a0002,Wario,와리오
+0009000002650102,Diddy Kong,디디콩
+0001000000350102,Luigi,루이지
+00000000003c0102,Mario - Gold Edition,마리오 - 골드 에디션
+0000000003710102,Mario - Wedding,마리오 [웨딩 스타일]
+00000000003d0102,Mario - Silver Edition,마리오 - 실버 에디션
+0002000003720102,Peach - Wedding,피치공주 [웨딩 스타일]
+0005000000390102,Bowser,쿠파
 3740000103741402,Super Mario Cereal,
 0005ff00023a0702,Hammer Slam Bowser,
 0580000000050002,Fox,
@@ -86,13 +86,13 @@
 3200000000300002,Sonic,
 08000100025f0402,Inkling Girl - Lime Green,걸 [라임 그린]
 0600000000120002,Captain Falcon,
-0008000000030002,Donkey Kong,
+0008000000030002,Donkey Kong,동키콩
 1f000000000a0002,Kirby,커비
 3340000000320002,Pac-Man,
-0004000002620102,Rosalina,
+0004000002620102,Rosalina,로젤리나
 05c0000000060002,Samus,사무스
-000a000000380102,Toad,
-0003000000020002,Yoshi,
+000a000000380102,Toad,키노피오
+0003000000020002,Yoshi,요시
 06400100001e0002,Olimar,
 06420000035f1102,Pikmin,
 0188000002410502,Mabel,
@@ -104,10 +104,10 @@
 0181000100440502,[AC] 001 - Isabelle,001 - 여울
 01920001010d0502,[AC] 202 - Blathers,202 - 부엉
 0374010103190502,[AC] XS1 - Rilla,
-0003010200410302,Green Yarn Yoshi,
-0003010200430302,Light Blue Yarn Yoshi,
-0002000000360102,Peach,
-00800102035d0302,Poochy,
+0003010200410302,Green Yarn Yoshi,털실 요시 초록
+0003010200430302,Light Blue Yarn Yoshi,털실 요시 하늘색
+0002000000360102,Peach,피치공주
+00800102035d0302,Poochy,포치
 22400000002b0002,Shulk,
 08000100003e0402,Inkling Girl,걸
 0800010003690402,Inkling Girl - Neon Pink,걸 [네온 핑크]
@@ -197,10 +197,10 @@
 3844000104281902,Roa Kirishima,
 3845000104291902,Nail Saionji,
 38460001042a1902,Asana Mutsuba,
-0000030003a60102,Mario - Cat,
-0002010003a70102,Peach - Cat,
-0013000002660102,Daisy,
-00030102023e0302,Mega Yarn Yoshi,
+0000030003a60102,Mario - Cat,고양이마리오
+0002010003a70102,Peach - Cat,고양이피치
+0013000002660102,Daisy,데이지
+00030102023e0302,Mega Yarn Yoshi,메가 털실 요시
 1f02000002560c02,King Dedede,디디디 대왕
 1f01000002550c02,Meta Knight,메타 나이트
 1f03000002570c02,Waddle Dee,웨이들 디
@@ -220,7 +220,7 @@
 3805000103981702,Daijobu,
 1d000001025c0d02,Shadow Mewtwo,
 1d01000003750d02,Detective Pikachu,
-000a000303a0ff02,Toad - Power Up Band,
+000a000303a0ff02,Toad - Power Up Band,키노피오 [파워 업 밴드]
 01c1000002440502,Lottie,
 0513000102e70502,[AC] W01 - Vivian,
 02ea000101d50502,[AC] AF3 - Goldie,
@@ -230,9 +230,9 @@
 019f000101110502,[AC] 206 - Pete,206 - 펠리오
 05c0000004121302,Samus - Metroid Dread,사무스 [메트로이드 드레드]
 028f0101031a0502,[AC] XS2 - Marty,
-0000000002380602,8-Bit Mario Classic Color,
+0000000002380602,8-Bit Mario Classic Color,8비트 마리오 [클래식 컬러]
 01810100023f0502,Isabelle,
-00020003039dff02,Peach - Power Up Band,
+00020003039dff02,Peach - Power Up Band,피치공주 [파워 업 밴드]
 0183000002420502,Tom Nook,
 0182000002400502,K.K. Slider,
 018e000002490502,Resetti,
@@ -741,118 +741,118 @@
 01810000024b0502,Summertime Isabelle,
 01020100041a0902,Ganondorf - Tears of the Kingdom,가논돌프 [티어스 오브 더 킹덤]
 0101000004190902,Zelda - Tears of the Kingdom,젤다 [티어스 오브 더 킹덤]
-0000000002390602,8-Bit Mario Modern Color,
-00000003039bff02,Mario - Power Up Band,
+0000000002390602,8-Bit Mario Modern Color,8비트 마리오 [모던 컬러]
+00000003039bff02,Mario - Power Up Band,마리오 [파워 업 밴드]
 000000030430ff02,Golden - Power Up Band,
-00010003039cff02,Luigi - Power Up Band,
-0003000000370102,Yoshi,
-00030003039fff02,Yoshi - Power Up Band,
+00010003039cff02,Luigi - Power Up Band,루이지 [파워 업 밴드]
+0003000000370102,Yoshi,요시
+00030003039fff02,Yoshi - Power Up Band,요시 [파워 업 밴드]
 0008ff00023b0702,Turbo Charge Donkey Kong,
-00130003039eff02,Daisy - Power Up Band,
+00130003039eff02,Daisy - Power Up Band,데이지 [파워 업 밴드]
 0181000101d40502,[AC] CP1 - Isabelle,
 0182000101d80502,[AC] CP2 - K.K Slider,
 025f000101d70502,[AC] AF2 - Rosie,
 05c0000003651302,Samus Aran,사무스 아란
 05c1000003661302,Metroid,메트로이드
 05c4000004131302,E.M.M.I.,E.M.M.I.
-09c0010102690e02,Mario - Soccer,
-09c00201026a0e02,Mario - Baseball,
-09c00301026b0e02,Mario - Tennis,
-09c00401026c0e02,Mario - Golf,
-09c00501026d0e02,Mario - Horse Racing,
-09c10101026e0e02,Luigi - Soccer,
-09c10201026f0e02,Luigi - Baseball,
-09c1030102700e02,Luigi - Tennis,
-09c1040102710e02,Luigi - Golf,
-09c1050102720e02,Luigi - Horse Racing,
-09c2010102730e02,Peach - Soccer,
-09c2020102740e02,Peach - Baseball,
-09c2030102750e02,Peach - Tennis,
-09c2040102760e02,Peach - Golf,
-09c2050102770e02,Peach - Horse Racing,
-09c3010102780e02,Daisy - Soccer,
-09c3020102790e02,Daisy - Baseball,
-09c30301027a0e02,Daisy - Tennis,
-09c30401027b0e02,Daisy - Golf,
-09c30501027c0e02,Daisy - Horse Racing,
-09c40101027d0e02,Yoshi - Soccer,
-09c40201027e0e02,Yoshi - Baseball,
-09c40301027f0e02,Yoshi - Tennis,
-09c4040102800e02,Yoshi - Golf,
-09c4050102810e02,Yoshi - Horse Racing,
-09c5010102820e02,Wario - Soccer,
-09c5020102830e02,Wario - Baseball,
-09c5030102840e02,Wario - Tennis,
-09c5040102850e02,Wario - Golf,
-09c5050102860e02,Wario - Horse Racing,
-09c6010102870e02,Waluigi - Soccer,
-09c6020102880e02,Waluigi - Baseball,
-09c6030102890e02,Waluigi - Tennis,
-09c60401028a0e02,Waluigi - Golf,
-09c60501028b0e02,Waluigi - Horse Racing,
-09c70101028c0e02,Donkey Kong - Soccer,
-09c70201028d0e02,Donkey Kong - Baseball,
-09c70301028e0e02,Donkey Kong - Tennis,
-09c70401028f0e02,Donkey Kong - Golf,
-09c7050102900e02,Donkey Kong - Horse Racing,
-09c8010102910e02,Diddy Kong - Soccer,
-09c8020102920e02,Diddy Kong - Baseball,
-09c8030102930e02,Diddy Kong - Tennis,
-09c8040102940e02,Diddy Kong - Golf,
-09c8050102950e02,Diddy Kong - Horse Racing,
-09c9010102960e02,Bowser - Soccer,
-09c9020102970e02,Bowser - Baseball,
-09c9030102980e02,Bowser - Tennis,
-09c9040102990e02,Bowser - Golf,
-09c90501029a0e02,Bowser - Horse Racing,
-09ca0101029b0e02,Bowser Jr. - Soccer,
-09ca0201029c0e02,Bowser Jr. - Baseball,
-09ca0301029d0e02,Bowser Jr. - Tennis,
-09ca0401029e0e02,Bowser Jr. - Golf,
-09ca0501029f0e02,Bowser Jr. - Horse Racing,
-09cb010102a00e02,Boo - Soccer,
-09cb020102a10e02,Boo - Baseball,
-09cb030102a20e02,Boo - Tennis,
-09cb040102a30e02,Boo - Golf,
-09cb050102a40e02,Boo - Horse Racing,
-09cc010102a50e02,Baby Mario - Soccer,
-09cc020102a60e02,Baby Mario - Baseball,
-09cc030102a70e02,Baby Mario - Tennis,
-09cc040102a80e02,Baby Mario - Golf,
-09cc050102a90e02,Baby Mario - Horse Racing,
-09cd010102aa0e02,Baby Luigi - Soccer,
-09cd020102ab0e02,Baby Luigi - Baseball,
-09cd030102ac0e02,Baby Luigi - Tennis,
-09cd040102ad0e02,Baby Luigi - Golf,
-09cd050102ae0e02,Baby Luigi - Horse Racing,
+09c0010102690e02,Mario - Soccer,마리오 [축구]
+09c00201026a0e02,Mario - Baseball,마리오 [야구]
+09c00301026b0e02,Mario - Tennis,마리오 [테니스]
+09c00401026c0e02,Mario - Golf,마리오 [골프]
+09c00501026d0e02,Mario - Horse Racing,마리오 [승마]
+09c10101026e0e02,Luigi - Soccer,루이지 [축구]
+09c10201026f0e02,Luigi - Baseball,루이지 [야구]
+09c1030102700e02,Luigi - Tennis,루이지 [테니스]
+09c1040102710e02,Luigi - Golf,루이지 [골프]
+09c1050102720e02,Luigi - Horse Racing,루이지 [승마]
+09c2010102730e02,Peach - Soccer,피치공주 [축구]
+09c2020102740e02,Peach - Baseball,피치공주 [야구]
+09c2030102750e02,Peach - Tennis,피치공주 [테니스]
+09c2040102760e02,Peach - Golf,피치공주 [골프]
+09c2050102770e02,Peach - Horse Racing,피치공주 [승마]
+09c3010102780e02,Daisy - Soccer,데이지 [축구]
+09c3020102790e02,Daisy - Baseball,데이지 [야구]
+09c30301027a0e02,Daisy - Tennis,데이지 [테니스]
+09c30401027b0e02,Daisy - Golf,데이지 [골프]
+09c30501027c0e02,Daisy - Horse Racing,데이지 [승마]
+09c40101027d0e02,Yoshi - Soccer,요시 [축구]
+09c40201027e0e02,Yoshi - Baseball,요시 [야구]
+09c40301027f0e02,Yoshi - Tennis,요시 [테니스]
+09c4040102800e02,Yoshi - Golf,요시 [골프]
+09c4050102810e02,Yoshi - Horse Racing,요시 [승마]
+09c5010102820e02,Wario - Soccer,와리오 [축구]
+09c5020102830e02,Wario - Baseball,와리오 [야구]
+09c5030102840e02,Wario - Tennis,와리오 [테니스]
+09c5040102850e02,Wario - Golf,와리오 [골프]
+09c5050102860e02,Wario - Horse Racing,와리오 [승마]
+09c6010102870e02,Waluigi - Soccer,와루이지 [축구]
+09c6020102880e02,Waluigi - Baseball,와루이지 [야구]
+09c6030102890e02,Waluigi - Tennis,와루이지 [테니스]
+09c60401028a0e02,Waluigi - Golf,와루이지 [골프]
+09c60501028b0e02,Waluigi - Horse Racing,와루이지 [승마]
+09c70101028c0e02,Donkey Kong - Soccer,동키콩 [축구]
+09c70201028d0e02,Donkey Kong - Baseball,동키콩 [야구]
+09c70301028e0e02,Donkey Kong - Tennis,동키콩 [테니스]
+09c70401028f0e02,Donkey Kong - Golf,동키콩 [골프]
+09c7050102900e02,Donkey Kong - Horse Racing,동키콩 [승마]
+09c8010102910e02,Diddy Kong - Soccer,디디콩 [축구]
+09c8020102920e02,Diddy Kong - Baseball,디디콩 [야구]
+09c8030102930e02,Diddy Kong - Tennis,디디콩 [테니스]
+09c8040102940e02,Diddy Kong - Golf,디디콩 [골프]
+09c8050102950e02,Diddy Kong - Horse Racing,디디콩 [승마]
+09c9010102960e02,Bowser - Soccer,쿠파 [축구]
+09c9020102970e02,Bowser - Baseball,쿠파 [야구]
+09c9030102980e02,Bowser - Tennis,쿠파 [테니스]
+09c9040102990e02,Bowser - Golf,쿠파 [골프]
+09c90501029a0e02,Bowser - Horse Racing,쿠파 [승마]
+09ca0101029b0e02,Bowser Jr. - Soccer,쿠파주니어 [축구]
+09ca0201029c0e02,Bowser Jr. - Baseball,쿠파주니어 [야구]
+09ca0301029d0e02,Bowser Jr. - Tennis,쿠파주니어 [테니스]
+09ca0401029e0e02,Bowser Jr. - Golf,쿠파주니어 [골프]
+09ca0501029f0e02,Bowser Jr. - Horse Racing,쿠파주니어 [승마]
+09cb010102a00e02,Boo - Soccer,부끄부끄 [축구]
+09cb020102a10e02,Boo - Baseball,부끄부끄 [야구]
+09cb030102a20e02,Boo - Tennis,부끄부끄 [테니스]
+09cb040102a30e02,Boo - Golf,부끄부끄 [골프]
+09cb050102a40e02,Boo - Horse Racing,부끄부끄 [승마]
+09cc010102a50e02,Baby Mario - Soccer,베이비마리오 [축구]
+09cc020102a60e02,Baby Mario - Baseball,베이비마리오 [야구]
+09cc030102a70e02,Baby Mario - Tennis,베이비마리오 [테니스]
+09cc040102a80e02,Baby Mario - Golf,베이비마리오 [골프]
+09cc050102a90e02,Baby Mario - Horse Racing,베이비마리오 [승마]
+09cd010102aa0e02,Baby Luigi - Soccer,베이비루이지 [축구]
+09cd020102ab0e02,Baby Luigi - Baseball,베이비루이지 [야구]
+09cd030102ac0e02,Baby Luigi - Tennis,베이비루이지 [테니스]
+09cd040102ad0e02,Baby Luigi - Golf,베이비루이지 [골프]
+09cd050102ae0e02,Baby Luigi - Horse Racing,베이비루이지 [승마]
 09ce010102af0e02,Birdo - Soccer,
 09ce020102b00e02,Birdo - Baseball,
 09ce030102b10e02,Birdo - Tennis,
 09ce040102b20e02,Birdo - Golf,
 09ce050102b30e02,Birdo - Horse Racing,
-09cf010102b40e02,Rosalina - Soccer,
-09cf020102b50e02,Rosalina - Baseball,
-09cf030102b60e02,Rosalina - Tennis,
-09cf040102b70e02,Rosalina - Golf,
-09cf050102b80e02,Rosalina - Horse Racing,
-09d0010102b90e02,Metal Mario - Soccer,
-09d0020102ba0e02,Metal Mario - Baseball,
-09d0030102bb0e02,Metal Mario - Tennis,
-09d0040102bc0e02,Metal Mario - Golf,
-09d0050102bd0e02,Metal Mario - Horse Racing,
-09d1010102be0e02,Pink Gold Peach - Soccer,
-09d1020102bf0e02,Pink Gold Peach - Baseball,
-09d1030102c00e02,Pink Gold Peach - Tennis,
-09d1040102c10e02,Pink Gold Peach - Golf,
-09d1050102c20e02,Pink Gold Peach - Horse Racing,
+09cf010102b40e02,Rosalina - Soccer,로젤리나 [축구]
+09cf020102b50e02,Rosalina - Baseball,로젤리나 [야구]
+09cf030102b60e02,Rosalina - Tennis,로젤리나 [테니스]
+09cf040102b70e02,Rosalina - Golf,로젤리나 [골프]
+09cf050102b80e02,Rosalina - Horse Racing,로젤리나 [승마]
+09d0010102b90e02,Metal Mario - Soccer,메탈마리오 [축구]
+09d0020102ba0e02,Metal Mario - Baseball,메탈마리오 [야구]
+09d0030102bb0e02,Metal Mario - Tennis,메탈마리오 [테니스]
+09d0040102bc0e02,Metal Mario - Golf,메탈마리오 [골프]
+09d0050102bd0e02,Metal Mario - Horse Racing,메탈마리오 [승마]
+09d1010102be0e02,Pink Gold Peach - Soccer,핑크골드피치 [축구]
+09d1020102bf0e02,Pink Gold Peach - Baseball,핑크골드피치 [야구]
+09d1030102c00e02,Pink Gold Peach - Tennis,핑크골드피치 [테니스]
+09d1040102c10e02,Pink Gold Peach - Golf,핑크골드피치 [골프]
+09d1050102c20e02,Pink Gold Peach - Horse Racing,핑크골드피치 [승마]
 22410000041e0002,Pyra,
 22420000041f0002,Mythra,
 22c00000003a0202,Chibi Robo,
 22430000043d1b02,Noah,
 22440000043e1b02,Mio,
 3f000000042e0002,Sora,
-000900030432ff02,Diddy Kong - Power Up Band,
-000800030431ff02,Donkey Kong - Power Up Band,
+000900030432ff02,Diddy Kong - Power Up Band,디디콩 [파워 업 밴드]
+000800030431ff02,Donkey Kong - Power Up Band,동키콩 [파워 업 밴드]
 0109000004a30902,Riju,루쥬
 010a000004a40902,Sidon,시드
 010b000004a50902,Tulin,튤리
@@ -882,7 +882,7 @@
 34c2000004aa1d02,Luke,
 34c3000004ac1d02,Jamie,
 34c4000004ae1d02,Kimberly,
-00080100042f1a02,Donkey Kong and Pauline,
+00080100042f1a02,Donkey Kong and Pauline,동키콩&폴린
 05c00000043b1302,Samus,사무스
 05c00000043a1302,Samus & Vi-O-La,사무스&바이올라
 0001000404401c02,Luigi - My Mario Wooden Blocks,루이지 - 마이 마리오 우드 블록
