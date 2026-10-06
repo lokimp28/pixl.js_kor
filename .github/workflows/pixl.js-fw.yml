@@ -24,13 +24,13 @@ jobs:
     - name: Change Owner of Container Working Directory
       run: chown root:root .
     - name: build firmware
-      run: cd fw && make all RELEASE=1 APP_VERSION=$GITHUB_RUN_NUMBER BOARD=${{matrix.board}}
+      run: cd fw && make all RELEASE=1 APP_VERSION=4 BOARD=${{matrix.board}}
     - name: copy artifact
-      run: mv fw/_build/bootloader.hex . && mv fw/_build/pixljs.hex . && mv fw/_build/pixljs_all.hex . && mv fw/_build/pixjs_ota_v${{github.run_number}}.zip . && mv fw/docs/fw_readme.txt . && mv  fw/scripts/fw_update.bat .
+      run: mv fw/_build/bootloader.hex . && mv fw/_build/pixljs.hex . && mv fw/_build/pixljs_all.hex . && mv fw/_build/pixjs_ota_v4.zip . && mv fw/docs/fw_readme.txt . && mv  fw/scripts/fw_update.bat .
     - name: rename files for board
       run: |
         mv pixljs_all.hex pixljs_all_${{matrix.board}}.hex
-        mv pixjs_ota_v${{github.run_number}}.zip pixjs_ota_v${{github.run_number}}_${{matrix.board}}.zip
+        mv pixjs_ota_v4.zip pixjs_ota_v4_${{matrix.board}}.zip
     - name: upload artifact
       uses: actions/upload-artifact@v4
       with:
@@ -39,7 +39,7 @@ jobs:
           bootloader.hex
           pixljs.hex
           pixljs_all_${{matrix.board}}.hex
-          pixjs_ota_v${{github.run_number}}_${{matrix.board}}.zip
+          pixjs_ota_v4_${{matrix.board}}.zip
           fw_readme.txt
           fw_update.bat
     - name: create release
@@ -51,6 +51,6 @@ jobs:
         prerelease: false
         files: |
           pixljs_all_${{matrix.board}}.hex
-          pixjs_ota_v${{github.run_number}}_${{matrix.board}}.zip
+          pixjs_ota_v4_${{matrix.board}}.zip
           fw_readme.txt
           fw_update.bat
