@@ -26,6 +26,11 @@ static uint8_t amiidb_game_korean_priority(const db_game_t *p_game) {
     case 47: return 3;  // 스매시브라더스
     case 1:  return 0;  // 젤다: 티어스 오브 더 킹덤
     case 4:  return 1;  // 젤다: 브레스 오브 더 와일드
+    case 56: return 0;  // 동물의 숲 카드 제1탄
+    case 57: return 1;  // 동물의 숲 카드 제2탄
+    case 58: return 2;  // 동물의 숲 카드 제3탄
+    case 59: return 3;  // 동물의 숲 카드 제4탄
+    case 60: return 4;  // 동물의 숲 카드 제5탄
     default: return 0xff;
     }
 }
