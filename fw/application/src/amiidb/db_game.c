@@ -45,7 +45,7 @@ const db_game_t game_list[] = {
 {45, 76, "Super Mario 3D World + Bowser's Fury", "3D 월드 + 퓨리 월드", 1, 20}, 
 {46, 76, "Super Mario Odyssey", "오디세이", 70, 22}, 
 {47, 0, "Super Smash Bros Ultimate", "대난투 스매시 브라더스", 35, 97}, 
-{48, 0, "Yoshi's Crafted World", "요시 크래프트 월드", 50, 11}, 
+{48, 0, "Yoshi's Crafted World", "요시 크래프트 월드", 50, 12}, 
 {49, 0, "Yu-Gi-Oh! Rush Duel Saikyo Battle Royale ", "유희왕 러시 듀얼 최강 배틀 로열", 1, 7}, 
 {50, 0, "Dark Souls Remastered", "다크 소울 리마스터", 1, 1}, 
 {51, 76, "Super Mario Party", "마리오 파티", 84, 15}, 
