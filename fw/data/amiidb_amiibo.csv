@@ -10,9 +10,9 @@
 0100000003990902,Link - Link's Awakening,링크 [꿈꾸는 섬]
 0100010000160002,Toon Link,툰링크
 0100010003500902,Toon Link - The Wind Waker,툰링크 [바람의 지휘봉]
-01010000000e0002,Zelda,젤다
+01010000000e0002,Zelda,젤다 [스매시]
 0101000003520902,Toon Zelda - The Wind Waker,젤다 [바람의 지휘봉]
-0101000003560902,Zelda,젤다
+0101000003560902,Zelda,젤다 [브레스]
 0101010000170002,Sheik,시크
 0101030004140902,Zelda & Loftwing,젤다&로프트버드
 01020100001b0002,Ganondorf,가논돌프
@@ -25,10 +25,10 @@
 01410000035c0902,Bokoblin,보코블린
 0100000004180902,Link - Tears of the Kingdom,링크 [티어스 오브 더 킹덤]
 35080000040f1802,Magnamalo,마가이마가도
-3509000004101802,Palico,동반자 아이루
-35090100042b1802,Palico,동반자 아이루
-350a000004111802,Palamute,동반자 가루크
-350a0100042c1802,Palamute,동반자 가루크
+3509000004101802,Palico,동반자 아이루 [라이즈]
+35090100042b1802,Palico,동반자 아이루 [선브레이크]
+350a000004111802,Palamute,동반자 가루크 [라이즈]
+350a0100042c1802,Palamute,동반자 가루크 [선브레이크]
 350b0000042d1802,Malzeno,멜제나
 3500010002e10f02,One-Eyed Rathalos and Rider - Male,외눈의 리오레우스&라이더(남)
 3500020002e20f02,One-Eyed Rathalos and Rider - Female,외눈의 리오레우스&라이더(여)
@@ -49,7 +49,7 @@
 0004010000130002,Rosalina & Luma,로젤리나&치코
 0014000002670102,Waluigi,와루이지
 0003010200420302,Pink Yarn Yoshi,털실 요시 핑크
-0005000000140002,Bowser,쿠파
+0005000000140002,Bowser,쿠파 [스매시]
 00090000000d0002,Diddy Kong,디디콩
 0015000003670102,Goomba,굼바
 0023000003680102,Koopa Troopa,엉금엉금
@@ -64,8 +64,8 @@
 2105010003630002,Corrin - Player 2,카무이 [2P]
 2106000003601202,Alm,아름
 2107000003611202,Celica,세리카
-21080000036f1202,Chrom,크롬
-2108000003880002,Chrom,크롬
+21080000036f1202,Chrom,크롬 [파이어 엠블렘]
+2108000003880002,Chrom,크롬 [스매시]
 2109000003701202,Tiki,치키
 210b000003a50002,Byleth,벨레트
 0005000003730102,Bowser - Wedding,쿠파 [웨딩]
@@ -78,9 +78,9 @@
 0000000003710102,Mario - Wedding,마리오 [웨딩]
 00000000003d0102,Mario - Silver Edition,마리오 [실버]
 0002000003720102,Peach - Wedding,피치공주 [웨딩]
-0005000000390102,Bowser,쿠파
+0005000000390102,Bowser,쿠파 [슈퍼 마리오]
 3740000103741402,Super Mario Cereal,슈퍼 마리오 시리얼
-0005ff00023a0702,Hammer Slam Bowser,해머 슬램 쿠파
+0005ff00023a0702,Hammer Slam Bowser,쿠파 [해머 슬램]
 0580000000050002,Fox,폭스
 3480000000310002,Mega Man,록맨
 3200000000300002,Sonic,소닉
@@ -90,7 +90,7 @@
 1f000000000a0002,Kirby,커비
 3340000000320002,Pac-Man,팩맨
 0004000002620102,Rosalina,로젤리나
-05c0000000060002,Samus,사무스
+05c0000000060002,Samus,사무스 [스매시]
 000a000000380102,Toad,키노피오
 0003000000020002,Yoshi,요시
 06400100001e0002,Olimar,피크민&올리마
@@ -747,7 +747,7 @@
 00010003039cff02,Luigi - Power Up Band,루이지 [파워 업 밴드]
 0003000000370102,Yoshi,요시
 00030003039fff02,Yoshi - Power Up Band,요시 [파워 업 밴드]
-0008ff00023b0702,Turbo Charge Donkey Kong,터보 차지 동키콩
+0008ff00023b0702,Turbo Charge Donkey Kong,동키콩 [터보 차지]
 00130003039eff02,Daisy - Power Up Band,데이지 [파워 업 밴드]
 0181000101d40502,[AC] CP1 - Isabelle,CP1 - 여울
 0182000101d80502,[AC] CP2 - K.K Slider,CP2 - T.K.
@@ -857,76 +857,76 @@
 010a000004a40902,Sidon,시드
 010b000004a50902,Tulin,튤리
 010c000004a60902,Yunobo,윤돌
-34c2000104ab1d02,[Card] Luke,루크 [001]
-34c3000104ad1d02,[Card] Jamie,제이미 [002]
-34cc000104b71d02,[Card] Manon,마농 [003]
-34c4000104af1d02,[Card] Kimberly,킴벌리 [004]
-34cd000104b81d02,[Card] Marisa,마리사 [005]
-34d0000104bb1d02,[Card] Lily,릴리 [006]
-34ce000104b91d02,[Card] JP,JP [007]
-34c7000104b21d02,[Card] Juri,주리 [008]
-34cb000104b61d02,[Card] Dee Jay,디 제이 [009]
-34d1000104bc1d02,[Card] Cammy,캐미 [010]
-34c0000104a81d02,[Card] Ryu,류 [011]
-34ca000104b51d02,[Card] E.Honda,E. 혼다 [012]
-34c8000104b31d02,[Card] Blanka,블랑카 [013]
-34c6000104b11d02,[Card] Guile,가일 [014]
-34c1000104a91d02,[Card] Ken,켄 [015]
-34c5000104b01d02,[Card] Chun-Li,춘리 [016]
-34cf000104ba1d02,[Card] Zangief,장기에프 [017]
-34c9000104b41d02,[Card] Dhalsim,달심 [018]
-34d2000104bd1d02,[Card] Rashid,라시드 [019]
-34d3000104be1d02,[Card] A.K.I.,A.K.I. [020]
-34d4000104bf1d02,[Card] ED,에드 [021]
-34d5000104c01d02,[Card] Akuma,고우키 [022]
-34c2000004aa1d02,Luke,루크 [피규어]
-34c3000004ac1d02,Jamie,제이미 [피규어]
-34c4000004ae1d02,Kimberly,킴벌리 [피규어]
+34c2000104ab1d02,[Card] Luke,001 - 루크
+34c3000104ad1d02,[Card] Jamie,002 - 제이미
+34cc000104b71d02,[Card] Manon,003 - 마농
+34c4000104af1d02,[Card] Kimberly,004 - 킴벌리
+34cd000104b81d02,[Card] Marisa,005 - 마리사
+34d0000104bb1d02,[Card] Lily,006 - 릴리
+34ce000104b91d02,[Card] JP,007 - JP
+34c7000104b21d02,[Card] Juri,008 - 주리
+34cb000104b61d02,[Card] Dee Jay,009 - 디 제이
+34d1000104bc1d02,[Card] Cammy,010 - 캐미
+34c0000104a81d02,[Card] Ryu,011 - 류
+34ca000104b51d02,[Card] E.Honda,012 - E. 혼다
+34c8000104b31d02,[Card] Blanka,013 - 블랑카
+34c6000104b11d02,[Card] Guile,014 - 가일
+34c1000104a91d02,[Card] Ken,015 - 켄
+34c5000104b01d02,[Card] Chun-Li,016 - 춘리
+34cf000104ba1d02,[Card] Zangief,017 - 장기에프
+34c9000104b41d02,[Card] Dhalsim,018 - 달심
+34d2000104bd1d02,[Card] Rashid,019 - 라시드
+34d3000104be1d02,[Card] A.K.I.,020 - A.K.I.
+34d4000104bf1d02,[Card] ED,021 - 에드
+34d5000104c01d02,[Card] Akuma,022 - 고우키
+34c2000004aa1d02,Luke,루크
+34c3000004ac1d02,Jamie,제이미
+34c4000004ae1d02,Kimberly,킴벌리
 00080100042f1a02,Donkey Kong and Pauline,동키콩&폴린
-05c00000043b1302,Samus,사무스
+05c00000043b1302,Samus,사무스 [프라임 4]
 05c00000043a1302,Samus & Vi-O-La,사무스&바이올라
 0001000404401c02,Luigi - My Mario Wooden Blocks,루이지 우드 블록
 0003000404421c02,Yoshi - My Mario Wooden Blocks,요시 우드 블록
 00000004043f1c02,Mario - My Mario Wooden Blocks,마리오 우드 블록
 0002000404411c02,Peach - My Mario Wooden Blocks,피치 우드 블록
-34d6000104e11d02,M. Bison,베가 [023]
-3c80000104e81d02,Terry,테리 [024]
-3c81000104f21d02,Mai,마이 [025]
-34d8000104e31d02,Elena,엘레나 [026]
-34d9000104e41d02,Sagat,사가트 [027]
-34da000104e51d02,C. Viper,C. 바이퍼 [028]
-34db000104e61d02,Alex,알렉스 [029]
-34dc000104e71d02,Ingrid,잉그리드 [030]
-34c2000104cd1d02,Luke,루크 [031]
-34c3000104ce1d02,Jamie,제이미 [032]
-34cc000104d71d02,Manon,마농 [033]
-34c4000104cf1d02,Kimberly,킴벌리 [034]
-34cd000104d81d02,Marisa,마리사 [035]
-34d0000104db1d02,Lily,릴리 [036]
-34ce000104d91d02,JP,JP [037]
-34c7000104d21d02,Juri,주리 [038]
-34cb000104d61d02,Dee Jay,디 제이 [039]
-34d1000104dc1d02,Cammy,캐미 [040]
-34c0000104cb1d02,Ryu,류 [041]
-34ca000104d51d02,E. Honda,E. 혼다 [042]
-34c8000104d31d02,Blanka,블랑카 [043]
-34c6000104d11d02,Guile,가일 [044]
-34c1000104cc1d02,Ken,켄 [045]
-34c5000104d01d02,Chun-Li,춘리 [046]
-34cf000104da1d02,Zangief,장기에프 [047]
-34c9000104d41d02,Dhalsim,달심 [048]
-34d2000104dd1d02,Rashid,라시드 [049]
-34d3000104de1d02,A.K.I,A.K.I. [050]
-34d4000104df1d02,Ed,에드 [051]
-34d5000104e01d02,Akuma,고우키 [052]
-34d6000104eb1d02,M. Bison,베가 [053]
-3c80000104f11d02,Terry,테리 [054]
-3c81000104f31d02,Mai,마이 [055]
-34d8000104ec1d02,Elena,엘레나 [056]
-34d9000104ed1d02,Sagat,사가트 [057]
-34da000104ee1d02,C. Viper,C. 바이퍼 [058]
-34db000104ef1d02,Alex,알렉스 [059]
-34dc000104f01d02,Ingrid,잉그리드 [060]
+34d6000104e11d02,M. Bison,023 - 베가
+3c80000104e81d02,Terry,024 - 테리
+3c81000104f21d02,Mai,025 - 마이
+34d8000104e31d02,Elena,026 - 엘레나
+34d9000104e41d02,Sagat,027 - 사가트
+34da000104e51d02,C. Viper,028 - C. 바이퍼
+34db000104e61d02,Alex,029 - 알렉스
+34dc000104e71d02,Ingrid,030 - 잉그리드
+34c2000104cd1d02,Luke,031 - 루크
+34c3000104ce1d02,Jamie,032 - 제이미
+34cc000104d71d02,Manon,033 - 마농
+34c4000104cf1d02,Kimberly,034 - 킴벌리
+34cd000104d81d02,Marisa,035 - 마리사
+34d0000104db1d02,Lily,036 - 릴리
+34ce000104d91d02,JP,037 - JP
+34c7000104d21d02,Juri,038 - 주리
+34cb000104d61d02,Dee Jay,039 - 디 제이
+34d1000104dc1d02,Cammy,040 - 캐미
+34c0000104cb1d02,Ryu,041 - 류
+34ca000104d51d02,E. Honda,042 - E. 혼다
+34c8000104d31d02,Blanka,043 - 블랑카
+34c6000104d11d02,Guile,044 - 가일
+34c1000104cc1d02,Ken,045 - 켄
+34c5000104d01d02,Chun-Li,046 - 춘리
+34cf000104da1d02,Zangief,047 - 장기에프
+34c9000104d41d02,Dhalsim,048 - 달심
+34d2000104dd1d02,Rashid,049 - 라시드
+34d3000104de1d02,A.K.I,050 - A.K.I.
+34d4000104df1d02,Ed,051 - 에드
+34d5000104e01d02,Akuma,052 - 고우키
+34d6000104eb1d02,M. Bison,053 - 베가
+3c80000104f11d02,Terry,054 - 테리
+3c81000104f31d02,Mai,055 - 마이
+34d8000104ec1d02,Elena,056 - 엘레나
+34d9000104ed1d02,Sagat,057 - 사가트
+34da000104ee1d02,C. Viper,058 - C. 바이퍼
+34db000104ef1d02,Alex,059 - 알렉스
+34dc000104f01d02,Ingrid,060 - 잉그리드
 05c50000043c1302,Sylux,사일럭스
 1f00000004c41e03,Kirby,커비
 1f03010004c91e03,Bandana Waddle Dee,반다나 웨이들 디

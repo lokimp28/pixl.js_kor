@@ -43,7 +43,7 @@ const db_game_t game_list[] = {
 {43, 78, "Splatoon 2", "스플래툰 2", 1, 19}, 
 {44, 79, "Super Kirby Clash", "슈퍼 커비 헌터즈", 1, 8}, 
 {45, 76, "Super Mario 3D World + Bowser's Fury", "3D 월드 + 퓨리 월드", 1, 20}, 
-{46, 76, "Super Mario Odyssey", "오디세이", 70, 22}, 
+{46, 76, "Super Mario Odyssey", "슈퍼 마리오 오디세이", 70, 22}, 
 {47, 0, "Super Smash Bros Ultimate", "대난투 스매시 브라더스", 35, 97}, 
 {48, 0, "Yoshi's Crafted World", "요시 크래프트 월드", 50, 12}, 
 {49, 0, "Yu-Gi-Oh! Rush Duel Saikyo Battle Royale ", "유희왕 러시 듀얼 최강 배틀 로열", 1, 7}, 
@@ -91,5 +91,7 @@ const db_game_t game_list[] = {
 {90, 82, "Monster Hunter Stories 3", "스토리즈 3", 250, 3}, 
 {91, 76, "Super Mario Galaxy", "슈퍼 마리오 갤럭시", 0, 2}, 
 {92, 76, "Super Mario Bros. Wonder", "슈퍼 마리오 원더", 0, 3}, 
+{93, 72, "Street Fighter 6 Amiibo Cards", "카드", 0, 60}, 
+{94, 72, "Street Fighter 6 Amiibo Figures", "피규어", 0, 3}, 
 {0, 0, 0, 0, 0}
 };
