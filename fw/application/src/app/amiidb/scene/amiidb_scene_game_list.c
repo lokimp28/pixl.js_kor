@@ -24,6 +24,8 @@ static uint8_t amiidb_game_korean_priority(const db_game_t *p_game) {
     case 76: return 1;  // 슈퍼 마리오
     case 77: return 2;  // 젤다의 전설
     case 47: return 3;  // 스매시브라더스
+    case 1:  return 0;  // 젤다: 티어스 오브 더 킹덤
+    case 4:  return 1;  // 젤다: 브레스 오브 더 와일드
     default: return 0xff;
     }
 }
@@ -124,6 +126,10 @@ static void amiidb_scene_game_list_reload(app_amiidb_t *app) {
                 const db_amiibo_t *p_amiibo = get_amiibo_by_id(p_link->head, p_link->tail);
                 if (p_amiibo) {
                     const char *name = get_amiibo_display_name(p_amiibo);
+                    // Korean-only per-folder display override. NFC identity remains the shared amiibo record.
+                    if (p_settings_data->language == LANGUAGE_KO_KR && p_link->note_cn[0] != '\0') {
+                        name = p_link->note_cn;
+                    }
                     mui_list_view_add_item(app->p_list_view, ICON_FILE, name, (void *)p_amiibo);
                 } else {
                     sprintf(txt, "Amiibo[%08x:%08x]", p_link->head, p_link->tail);
