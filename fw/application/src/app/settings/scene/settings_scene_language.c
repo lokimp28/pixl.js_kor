@@ -26,6 +26,9 @@ void settings_scene_language_on_enter(void *user_data) {
 
     app_settings_t *app = user_data;
     for (uint8_t i = 0; i < LANGUAGE_COUNT; i++){
+      if (i == LANGUAGE_ZH_HANS || i == LANGUAGE_ZH_TW) {
+          continue;
+      }
       mui_list_view_add_item(app->p_list_view, 0xe105, getLangDesc(i), (void *)i);
     }
     mui_list_view_add_item(app->p_list_view, 0xe069, getLangString(_L_BACK), (void *)NULL_USER_DATA);
