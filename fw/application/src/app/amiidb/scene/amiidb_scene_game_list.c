@@ -11,6 +11,13 @@
 
 static void amiidb_scene_game_list_reload(app_amiidb_t *app);
 
+static const char *amiidb_game_display_name(const db_game_t *p_game) {
+    settings_data_t *p_settings_data = settings_get_data();
+    return (p_settings_data->language == LANGUAGE_KO_KR && p_game->name_ko[0] != '\0')
+               ? p_game->name_ko
+               : p_game->name_en;
+}
+
 static void amiidb_scene_game_list_list_view_on_selected(mui_list_view_event_t event, mui_list_view_t *p_list_view,
                                                          mui_list_item_t *p_item) {
     uint16_t icon = p_item->icon;
@@ -52,7 +59,7 @@ static int amiidb_scene_game_list_list_view_sort_cb(const mui_list_item_t *p_ite
         db_game_t *p_game_b = (db_game_t *)p_item_b->user_data;
         settings_data_t *p_settings_data = settings_get_data();
         if (p_settings_data->amiidb_sort_column == AMIIDB_SORT_COLUMN_NAME) {
-            return strcmp(p_game_a->name_en, p_game_b->name_en);
+            return strcmp(amiidb_game_display_name(p_game_a), amiidb_game_display_name(p_game_b));
         } else {
             return p_game_b->order - p_game_a->order;
         }
@@ -61,7 +68,7 @@ static int amiidb_scene_game_list_list_view_sort_cb(const mui_list_item_t *p_ite
     } else {
         db_amiibo_t *p_amiibo_a = (db_amiibo_t *)p_item_a->user_data;
         db_amiibo_t *p_amiibo_b = (db_amiibo_t *)p_item_b->user_data;
-        return strcmp(p_amiibo_a->name_en, p_amiibo_b->name_en);
+        return strcmp(get_amiibo_display_name(p_amiibo_a), get_amiibo_display_name(p_amiibo_b));
     }
 }
 
@@ -76,8 +83,8 @@ static void amiidb_scene_game_list_reload(app_amiidb_t *app) {
     uint8_t cur_game_id = app->game_id_path[app->game_id_index];
     const db_game_t *p_game = game_list;
     while (p_game->game_id > 0) {
-        if (p_game->parent_game_id == cur_game_id) {
-            sprintf(txt, "%s (%d)", (p_settings_data->language == LANGUAGE_ZH_HANS ? p_game->name_cn : p_game->name_en),
+        if (p_game->parent_game_id == cur_game_id && p_game->link_cnt > 0) {
+            sprintf(txt, "%s (%d)", amiidb_game_display_name(p_game),
                     p_game->link_cnt);
             mui_list_view_add_item(app->p_list_view, ICON_FOLDER, txt, (void *)p_game);
         }
