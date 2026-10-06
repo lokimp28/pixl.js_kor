@@ -72,6 +72,9 @@ static void validate_settings() {
     BOOL_VALIDATE(m_settings_data.anim_enabled, 0);
     BOOL_VALIDATE(m_settings_data.qrcode_enabled, 0);
     INT8_VALIDATE(m_settings_data.language, 0, LANGUAGE_COUNT - 1, LANGUAGE_EN_US);
+    if (m_settings_data.language == LANGUAGE_ZH_HANS || m_settings_data.language == LANGUAGE_ZH_TW) {
+        m_settings_data.language = LANGUAGE_KO_KR;
+    }
     INT8_VALIDATE(m_settings_data.amiidb_data_slot_num, 1, 100, 20);
     INT8_VALIDATE(m_settings_data.chameleon_slot_num, 8, 50, 8);
     INT8_VALIDATE(m_settings_data.chameleon_default_slot_index, 0, m_settings_data.chameleon_slot_num, INVALID_SLOT_INDEX);
