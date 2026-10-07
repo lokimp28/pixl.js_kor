@@ -231,10 +231,10 @@
 05c0000004121302,Samus - Metroid Dread,사무스 [드레드]
 028f0101031a0502,[AC] XS2 - Marty,XS2 - 마티
 0000000002380602,8-Bit Mario Classic Color,8비트 마리오 [클래식]
-01810100023f0502,Isabelle,여울
+01810100023f0502,Isabelle,여울(동복)
 00020003039dff02,Peach - Power Up Band,피치공주 [파워 업 밴드]
 0183000002420502,Tom Nook,너굴
-0182000002400502,K.K. Slider,T.K.
+0182000002400502,K.K. Slider,K.K.
 018e000002490502,Resetti,도루묵씨
 3480000003791502,Mega Man,록맨
 0183000100450502,[AC] 002 - Tom Nook,002 - 너굴
@@ -683,7 +683,7 @@
 04a80101031e0502,[AC] XS6 - Toby,XS6 - 토비
 028a000102e90502,[AC] W03 - June,W03 - 메이
 0232000102ea0502,[AC] W04 - Piper,W04 - 파이프
-0328000102eb0502,[AC] W05 - Paolo,W05 - 파울로
+0328000102eb0502,[AC] W05 - Paolo,W05 - 파올로
 04b6000102ec0502,[AC] W06 - Hornsby,W06 - 뿌람
 04c8000102ed0502,[AC] W07 - Stella,W07 - 아크릴
 04fc000102ee0502,[AC] W08 - Tybalt,W08 - 티볼트
@@ -750,7 +750,7 @@
 0008ff00023b0702,Turbo Charge Donkey Kong,동키콩 [터보 차지]
 00130003039eff02,Daisy - Power Up Band,데이지 [파워 업 밴드]
 0181000101d40502,[AC] CP1 - Isabelle,CP1 - 여울
-0182000101d80502,[AC] CP2 - K.K Slider,CP2 - T.K.
+0182000101d80502,[AC] CP2 - K.K Slider,CP2 - K.K.
 025f000101d70502,[AC] AF2 - Rosie,AF2 - 부케
 05c0000003651302,Samus Aran,사무스 아란
 05c1000003661302,Metroid,메트로이드
