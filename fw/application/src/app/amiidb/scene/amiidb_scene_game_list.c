@@ -24,8 +24,11 @@ static uint8_t amiidb_game_korean_priority(const db_game_t *p_game) {
     case 76: return 1;  // 슈퍼 마리오
     case 77: return 2;  // 젤다의 전설
     case 47: return 3;  // 스매시브라더스
-    case 1:  return 0;  // 젤다: 티어스 오브 더 킹덤
-    case 4:  return 1;  // 젤다: 브레스 오브 더 와일드
+    case 4:  return 0;  // 젤다: 브레스 오브 더 와일드
+    case 1:  return 1;  // 젤다: 티어스 오브 더 킹덤
+    case 93: return 0;  // 스트리트 파이터 6 스타터 팩
+    case 94: return 1;  // 스트리트 파이터 6 부스터 팩
+    case 95: return 2;  // 스트리트 파이터 6 피규어
     case 56: return 0;  // 동물의 숲 카드 제1탄
     case 57: return 1;  // 동물의 숲 카드 제2탄
     case 58: return 2;  // 동물의 숲 카드 제3탄
